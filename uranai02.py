@@ -70,15 +70,15 @@ while total1 >= 10:
             break
         else:
             num9=int(input("1桁目⇒"))
-            while num9>=10:
-                print("1桁で入力してください")
+            while num9>=10 or num9<0:
+                print("0または1桁の正の数で入力してください")
                 print()
                 num9=int(input("1桁目⇒"))
             num10=int(input("2桁目⇒"))
-            while num10>=10:
-                print("1桁で入力してください")
+            while num10>=10 or num10<0:
+                print("0または1桁の正の数で入力してください")
                 print()
-                num10=int(input("1桁目⇒"))
+                num10=int(input("2桁目⇒"))
             total1=get_total(num9,num10)
             print()
             print("合計: ",total1)
