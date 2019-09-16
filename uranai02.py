@@ -4,45 +4,45 @@
 
 #8桁の生年月日を入力 1998/04/11生まれ⇒1,9,9,8,0,4,1,1
 num1=int(input("1桁目⇒"))
-while num1>=10:
-    print("1桁で入力してください")
+while num1>=10 or num1<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num1=int(input("1桁目⇒"))
 num2=int(input("2桁目⇒"))
-while num2>=10:
-    print("1桁で入力してください")
+while num2>=10 or num2<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num2=int(input("2桁目⇒"))
 num3=int(input("3桁目⇒"))
-while num3>=10:
-    print("1桁で入力してください")
+while num3>=10 or num3<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num3=int(input("3桁目⇒"))
 num4=int(input("4桁目⇒"))
-while num4>=10:
-    print("1桁で入力してください")
+while num4>=10 or num4<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num4=int(input("4桁目⇒"))
 
 num5=int(input("5桁目⇒"))
-while num5>=10:
-    print("1桁で入力してください")
+while num5>=10 or num5<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num5=int(input("5桁目⇒"))
 num6=int(input("6桁目⇒"))
-while num6>=10:
-    print("1桁で入力してください")
+while num6>=10 or num6<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num6=int(input("6桁目⇒"))
 
 num7=int(input("7桁目⇒"))
-while num7>=10:
-    print("1桁で入力してください")
+while num7>=10 or num7<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num7=int(input("7桁目⇒"))
 num8=int(input("8桁目⇒"))
-while num8>=10:
-    print("1桁で入力してください")
+while num8>=10 or num8<0:
+    print("0または1桁の正の数で入力してください")
     print()
     num8=int(input("8桁目⇒"))
 
